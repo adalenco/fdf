@@ -6,7 +6,7 @@
 /*   By: adalenco <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/10 18:50:32 by adalenco          #+#    #+#             */
-/*   Updated: 2017/05/22 19:44:04 by adalenco         ###   ########.fr       */
+/*   Updated: 2017/09/14 21:03:58 by adalenco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <stdio.h>
 # include "../libft/libft.h"
 
-typedef struct		s_point // points brut
+typedef struct		s_point
 {
 	int				x;
 	int				y;
@@ -44,16 +44,16 @@ typedef struct		s_ws
 	int				winx;
 	int				winy;
 	float			z_scale;
-	t_point			*point; // coordonnees brutes
+	t_point			*point;
 	t_fpoint		*mpt;
-	int				nb_p; //nb de points total
-	int				s_col; // nombre colonnes
-	int				s_line; // nombre lignes
-	int				square_size; // espacement des points
-	float			mod_x; // centrer les x
-	float			mod_y; // centrer ta mere
-	int				tr_x; // translations x
-	int				tr_y; // transaltions powpowpow
+	int				nb_p;
+	int				s_col;
+	int				s_line;
+	int				square_size;
+	float			mod_x;
+	float			mod_y;
+	int				tr_x;
+	int				tr_y;
 	int				x_scale;
 	int				y_scale;
 }					t_ws;
